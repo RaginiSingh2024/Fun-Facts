@@ -1,0 +1,54 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.fact-box {
+    background-color: #e8f4f8;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    min-height: 100px;
+}
+
+#fact-display {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+#new-fact-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#new-fact-btn:hover {
+    background-color: #2980b9;
+}
